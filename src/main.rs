@@ -25,7 +25,7 @@ fn main() {
             continue;
         }
 
-        let in_words = convert(value);
+        let in_words = convert(value, true);
 
         println!("{} => \"{}\"", value, in_words);
     }

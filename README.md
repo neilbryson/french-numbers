@@ -20,11 +20,9 @@ Run the binary in the command line and pass a space-separated list of numbers
 0 => "zéro"
 1 => "un"
 3 => "trois"
-99 => "quatre-vingt-dix-neuf"
-162 => "cent-soixante-deux"
-1000 => "mille"
+100 => "cent"
 92398 => "quatre-vingt-douze-mille-trois-cent-quatre-vingt-dix-huit"
-102888 => "cent-deux-mille-huit-cent-quatre-vingt-huit"
+10288 => "dix-mille-deux-cent-quatre-vingt-huit"
 ```
 
 

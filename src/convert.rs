@@ -86,7 +86,9 @@ fn convert_to_plural(word_list: &mut Vec<String>) {
     let length = word_list.len();
 
     if let Some(last_element) = word_list.get(length - 1) {
-        if last_element == EIGHTY || last_element == HUNDRED || last_element == THOUSAND {
+        if (length > 1 && (last_element == HUNDRED || last_element == THOUSAND))
+            || (length == 1 && last_element == EIGHTY)
+        {
             word_list[length - 1] = format!("{}s", last_element);
         }
     }

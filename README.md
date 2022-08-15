@@ -4,7 +4,7 @@ Convert numbers into French words. Maximum supported figure is 999,999.
 
 ## Installation
 
-The latest [release](https://github.com/neilbryson/reddownload/releases) binaries can be downloaded here
+The latest [release](https://github.com/neilbryson/french-numbers/releases) binaries can be downloaded here
 
 - [Linux](https://github.com/neilbryson/french-numbers/releases/latest/download/french-numbers-linux.tar.gz)
 - [macOS](https://github.com/neilbryson/french-numbers/releases/latest/download/french-numbers-macOS.tar.gz)
